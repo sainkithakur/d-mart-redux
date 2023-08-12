@@ -1,13 +1,87 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.css{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40PX;
+  
+}
+.img1{
+  height: 200px; 
+  box-shadow: 2px 2px 2px 2px;
+}
+.cart{
+  box-shadow: 5px 5px 5px 5px gainsboro ;
+}
+.heading{
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 30px;
+  color: white;
+  
+}
+.btn{
+  background-color: green;
+  color: white;
+}
+.header{
+  position: fixed;
+ width: 100%;
+ background-color: rgb(73, 11, 230) !important;
+ 
+ 
+ 
+}
+.icon{
+  margin-left: 950px !important;
+  margin-top: 5px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  
+}
+.total{
+  height: 100px;
+  width: 200px;
+  background-color: aqua;
+  font: bold;
+  margin-left: 1150px;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.home{
+font-size: 20px;
+margin-right: 20px;
+margin-left: 20px;
+}
+.home:hover{
+  color: white;
+}
+.hr{
+  color: black; 
+}
+.divide{
+  background-color: rgb(73, 11, 230)
+}
+.tit{
+  margin-left: 20px;
+  font: bold;
+}
+/* /.pswd {
+  /* margin-left: 530px !important;
+  margin-top: -71px !important;
+  width: 450px;
+} */ 
+
+.cart2{
+  box-shadow: 10px 5px 5px 5px ;
+  
+}
+
+.remove:hover{
+  background-color: red;
 }
